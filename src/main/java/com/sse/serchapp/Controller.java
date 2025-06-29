@@ -32,7 +32,6 @@ public class Controller {
 
   @GetMapping("/all")
   public List<Employee> all() {
-
     return employeeRepository.findAll();
   }
 
